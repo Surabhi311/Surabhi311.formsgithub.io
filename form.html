@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Food Order Form</title>
+
+<link rel="stylesheet" type="text/css" href="basic.css">
+
+<script type="text/javascript" src="formvalidation.js"> </script>
+
+
+</head>
+
+
+<body>
+
+<h1>Food order form</h1>
+<img src="online-food-order-logo-icon_61778-45.jpg" alt="Order online logo">
+
+<form action="#">
+ <table border="0">
+   <tr>
+      <td class="label_col">Name:</td>
+      <td class="input_col"><input id="field1" type="text" name="NAME" onblur="checkField();"required><br>
+	  <td class="feedback_col"><span id="message1">&nbsp;</span></td>
+    </tr>
+	
+	<tr>
+      <td class="label_col">Phone number:</td>
+      <td class="input_col"><input id="phone" type="text" name="phone" onblur="validatePhone();" placeholder="xxx-xxx-xxxx"required><br>
+	  <td class="feedback_col"><span id="phonePrompt">xxx-xxx-xxxx</span></td>
+    </tr>
+	
+	<tr>
+      <td class="label_col">Address:</td>
+      <td class="input_col"><input id="field2" type="text" name="address" onblur="checkField2();"required><br>
+	  <td class="feedback_col"><span id="message2">&nbsp;</span></td>
+	 
+	  
+    </tr>
+	
+	<tr>
+      <td class="label_col">Order date:</td>
+      <td class="input_col"><input id="field1" type="date" name="orderdate" required><br>
+	  
+    </tr>
+	
+	<tr>
+	  <td class="label_col"></td>
+      <td class="input_col"></td>
+	  
+	</tr>
+	
+	<tr>
+	  <td class="label_col"></td>
+      <td class="input_col"></td>
+	  
+	</tr>
+	
+	
+	<tr>
+	  <td class="label_col"></td>
+      <td class="input_col"></td>
+	  
+	</tr>
+	<tr>
+      <td class="detail">Choose the restaurant</td>
+    </tr>
+	
+	<tr>
+      <td class="restaurent"><input type="radio" name="hotel" value="Dachinesehouse">Da chinese house<br>
+    </tr>
+	<tr>
+      <td class="restaurent"><input type="radio" name="hotel" value="Royal Orchid">Royal Orchid<br>
+    </tr>
+	<tr>
+      <td class="restaurent"><input type="radio" name="hotel" value="Greenleafrestaurant">Green leaf restaurant<br>
+    </tr>
+	<tr>
+      <td class="restaurent"><input type="radio" name="hotel" value="CentralPerk">Central Perk<br>
+    </tr>
+	
+	<tr>
+	  <td class="label_col"></td>
+      <td class="input_col"></td>
+	  
+	</tr>
+	
+	<tr>
+	  <td class="label_col"></td>
+      <td class="input_col"></td>
+	  
+	</tr>
+	
+	<tr>
+      <td class="detail">Select your orders here</td>
+      
+    </tr>
+	
+	<tr>
+      
+      <td class="head1_col">Items</td>
+	  <td class="head2_col">Quantity</td>
+    </tr>
+	
+	<tr>
+      
+      <td class="input_col"><input type="checkbox" name="food" value="veggrillsandwitch">Veg grill sandwitch<br>
+	  <td class="feedback_col"><input id="quantity" type="number" name="quantity" "/><br>
+    </tr>
+	
+	<tr>
+      
+      <td class="input_col"><input type="checkbox" name="food" value="Cheesesandwitch">Cheese sandwitch<br>
+	  <td class="feedback_col"><input id="quantity" type="number" name="quantity" "/><br>
+    </tr>
+	
+	<tr>
+     
+      <td class="input_col"><input type="checkbox" name="food" value="Vegburger">Veg burger<br>
+	  <td class="feedback_col"><input id="quantity" type="number" name="quantity" "/><br>
+    </tr>
+	
+	<tr>
+      
+      <td class="input_col"><input type="checkbox" name="food" value="Meatburger">Meat burger<br>
+	  <td class="feedback_col"><input id="quantity" type="number" name="quantity" "/><br>
+    </tr>
+	
+	<tr>
+      
+      <td class="input_col"><input type="checkbox" name="food" value="MexicangreenwavePizza">Mexican green wave Pizza<br>
+	  <td class="feedback_col"><input id="quantity" type="number" name="quantity" "/><br>
+    </tr>
+	
+	<tr>
+      
+      <td class="input_col"><input type="checkbox" name="food" value="VeggieparadisePizza">Veggie paradise Pizza<br>
+	  <td class="feedback_col"><input id="quantity" type="number" name="quantity" "/><br>
+    </tr>
+	
+	<tr>
+	  <td class="label_col"></td>
+      <td class="input_col"></td>
+	  
+	</tr>
+	<tr>
+	  <td class="label_col"></td>
+      <td class="input_col"></td>
+	  
+	</tr>
+	
+	<tr>
+	  <td class="label_col"></td>
+      <td class="input_col"></td>
+	  
+	</tr>
+	<tr>
+      <td class="detail">Type of order:</td>
+    </tr>
+	
+	<tr>
+      <td class="new_col"><input type="radio" name="order" value="homedelivery">homedelivery<br>
+    </tr>
+	<tr>
+      <td class="new_col"><input type="radio" name="order" value="pickup">pickup<br>
+    </tr>
+	
+	
+ </table>	
+	
+
+
+
+
+
+
+
+
+
+</form>
+<button onclick="addParagraphText();">Click Me</button>
+
+
+
+</body>
+
+</html>
