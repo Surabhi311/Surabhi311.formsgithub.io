@@ -1,0 +1,29 @@
+body{
+	background-color:lightgrey;
+	opacity:1;
+}
+h1{
+	color:navy;
+	font-size:300%;
+	margin-left:20px;
+}
+	
+	
+.label_col{
+    color:#990000;
+	font-size:100%;
+}	
+.head1_col,.head2_col{
+     color:Fuchsia;
+     text-align:center;
+	 font-size:150%;
+}
+.detail{
+      color:#4000ff;
+      font-size:150%;
+}	  
+img{
+	border-radius:50%;
+	float:right;
+}	
+	
